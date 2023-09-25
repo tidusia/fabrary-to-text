@@ -1,0 +1,8 @@
+/coverage
+/.next/
+/out/
+/storybook-static
+
+# below is ignored due to prettier on CI unexpectedly mark them as malformed
+# this file is re-written on each `npm install` so it must be ignored or the CI will fail
+/public/mockServiceWorker.js
