@@ -4,4 +4,5 @@ export type Card = {
   set: string;
   setNumber: string;
   have: number;
+  missing: number;
 };
