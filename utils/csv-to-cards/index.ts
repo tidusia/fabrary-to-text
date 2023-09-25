@@ -1,6 +1,6 @@
 import { Card } from "../../types";
 
-export default function csvToCards(csvString: string): Map<string, Card> {
+export default function csvToCards(csvString: string): Record<string, Card> {
   const lines = csvString.trim().split(/\r?\n/);
 
   const result = new Map<string, Card>();
@@ -45,5 +45,5 @@ export default function csvToCards(csvString: string): Map<string, Card> {
     }
   });
 
-  return result;
+  return Object.fromEntries(result);
 }
