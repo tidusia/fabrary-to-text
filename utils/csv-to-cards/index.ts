@@ -36,14 +36,19 @@ export default function csvToCards(csvString: string): Record<string, Card> {
     const missing = Math.max(3 - newHave, 0);
 
     if (existingItem) {
-      result.set(id, { ...existingItem, have: newHave, missing });
+      result.set(id, {
+        ...existingItem,
+        have: newHave,
+        missing,
+        sets: existingItem.sets.add(set.replace(/"/g, "")),
+      });
     }
 
     if (!existingItem) {
       result.set(id, {
-        id: id.replace(/"/g, ""), // Remove the double quotes
+        id,
         name: name.replace(/"/g, ""),
-        set: set.replace(/"/g, ""),
+        sets: new Set([set.replace(/"/g, "")]),
         have: newHave,
         setNumber: setNumber.replace(/"/g, ""),
         missing,
