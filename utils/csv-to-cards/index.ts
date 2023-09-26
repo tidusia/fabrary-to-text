@@ -1,9 +1,4 @@
 import { Card } from "../../types";
-// import { cards } from "fab-cards";
-
-// const cardsDataObject = Object.fromEntries(
-//   cards.map((card) => [card.cardIdentifier, card]),
-// );
 
 export default function csvToCards(csvString: string): Record<string, Card> {
   const lines = csvString.trim().split(/\r?\n/);
@@ -52,6 +47,7 @@ export default function csvToCards(csvString: string): Record<string, Card> {
         have: newHave,
         setNumber: setNumber.replace(/"/g, ""),
         missing,
+        pitch: pitch.replace(/"/g, ""),
       });
     }
   });

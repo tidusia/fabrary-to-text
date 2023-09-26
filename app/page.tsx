@@ -30,7 +30,7 @@ export default function Home() {
   if (collection) {
     collection.forEach((card) => {
       if (card.sets.has(editionFilter) && card.missing) {
-        missings.push(`${card.missing} ${card.name}`);
+        missings.push(`${card.missing} ${card.name} ${card.pitch}`);
       }
     });
   }

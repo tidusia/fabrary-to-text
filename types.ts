@@ -5,4 +5,5 @@ export type Card = {
   setNumber: string;
   have: number;
   missing: number;
+  pitch?: string;
 };
