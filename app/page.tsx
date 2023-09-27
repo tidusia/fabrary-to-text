@@ -4,6 +4,8 @@ import { useState } from "react";
 import csvToCards from "../utils/csv-to-cards";
 import { Release } from "fab-cards/dist/interfaces";
 import { SORTED_SETS } from "../constants";
+import organizeMissingCards from "../utils/organizeMissingCards";
+import MissingCardsBloc from "./components/MissingCardsBloc";
 
 export default function Home() {
   const [text, setText] = useState<string>("");
@@ -24,16 +26,13 @@ export default function Home() {
   };
 
   const collection = Object.entries(csvToCards(text) || {}).map(
-    ([key, value]) => value,
+    ([_, value]) => value,
   );
-  let missings: Array<string> = [];
-  if (collection) {
-    collection.forEach((card) => {
-      if (card.sets.has(editionFilter) && card.missing) {
-        missings.push(`${card.missing} ${card.name} ${card.pitch}`);
-      }
-    });
-  }
+
+  const missingCards = collection.filter(
+    (card) => card.sets.has(editionFilter) && card.missing,
+  );
+  const organizedMissingCards = organizeMissingCards(missingCards);
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -61,6 +60,7 @@ export default function Home() {
           name="edition"
           id="edition"
           onChange={(event) => setEditionFilter(event.target.value as Release)}
+          value={editionFilter}
         >
           <option value="">Select an edition</option>
           {SORTED_SETS.map((set) => (
@@ -70,8 +70,8 @@ export default function Home() {
       </div>
 
       <div className="my-4">
-        {missings.map((missing) => (
-          <p>{missing}</p>
+        {organizedMissingCards.map((missingCards) => (
+          <MissingCardsBloc missingCards={missingCards} />
         ))}
       </div>
     </main>

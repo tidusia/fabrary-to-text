@@ -13,6 +13,7 @@
     "jest:all": "jest"
   },
   "dependencies": {
+    "clsx": "^2.0.0",
     "fab-cards": "^8.0.147",
     "next": "latest",
     "react": "latest",
