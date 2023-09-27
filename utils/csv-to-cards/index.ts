@@ -1,4 +1,5 @@
 import { Card } from "../../types";
+import calculatePlaysetNumber from "../calculatePlaysetNumber";
 
 export default function csvToCards(csvString: string): Record<string, Card> {
   const lines = csvString.trim().split(/\r?\n/);
@@ -28,7 +29,8 @@ export default function csvToCards(csvString: string): Record<string, Card> {
     const existingItem = result.get(id);
     const newHave =
       (Number(have.replace(/"/g, "")) || 0) + (existingItem?.have || 0);
-    const missing = Math.max(3 - newHave, 0);
+    const playsetForCard = calculatePlaysetNumber(id);
+    const missing = Math.max(playsetForCard - newHave, 0);
 
     if (existingItem) {
       result.set(id, {
