@@ -6,4 +6,5 @@ export type Card = {
   have: number;
   missing: number;
   pitch?: string;
+  variations: number;
 };

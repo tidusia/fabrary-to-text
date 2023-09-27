@@ -1,5 +1,6 @@
 import { Card } from "../../types";
 import calculatePlaysetNumber from "../calculatePlaysetNumber";
+import { cards } from "fab-cards";
 
 export default function csvToCards(csvString: string): Record<string, Card> {
   const lines = csvString.trim().split(/\r?\n/);
@@ -11,7 +12,7 @@ export default function csvToCards(csvString: string): Record<string, Card> {
   lines.forEach((line) => {
     const [
       rawId,
-      name,
+      rawName,
       pitch,
       set,
       setNumber,
@@ -26,7 +27,9 @@ export default function csvToCards(csvString: string): Record<string, Card> {
     ] = line.split(",");
 
     const id = rawId.replace(/"/g, "");
+    const name = rawName.replace(/"/g, "");
     const existingItem = result.get(id);
+    const variations = cards.filter((card) => card.name === name).length;
     const newHave =
       (Number(have.replace(/"/g, "")) || 0) + (existingItem?.have || 0);
     const playsetForCard = calculatePlaysetNumber(id);
@@ -50,6 +53,7 @@ export default function csvToCards(csvString: string): Record<string, Card> {
         setNumber: setNumber.replace(/"/g, ""),
         missing,
         pitch: pitch.replace(/"/g, ""),
+        variations,
       });
     }
   });

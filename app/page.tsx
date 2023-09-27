@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import csvToCards from "../utils/csv-to-cards";
 import { Release } from "fab-cards/dist/interfaces";
 import { SORTED_SETS } from "../constants";
@@ -25,8 +25,9 @@ export default function Home() {
     }
   };
 
-  const collection = Object.entries(csvToCards(text) || {}).map(
-    ([_, value]) => value,
+  const collection = useMemo(
+    () => Object.entries(csvToCards(text) || {}).map(([_, value]) => value),
+    [text, csvToCards],
   );
 
   const missingCards = collection.filter(
