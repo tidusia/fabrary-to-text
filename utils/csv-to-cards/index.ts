@@ -30,10 +30,15 @@ export default function csvToCards(csvString: string): Record<string, Card> {
 
     const name = rawName;
     const existingItem = result.get(id);
+    const matchingCardInDb = cards.find((card) => card.cardIdentifier === id);
     const variations = cards.filter((card) => card.name === name).length;
     const newHave = (Number(have) || 0) + (existingItem?.have || 0);
     const playset = calculatePlaysetNumber(id);
     const missing = Math.max(playset - newHave, 0);
+
+    if (matchingCardInDb?.isCardBack) {
+      return;
+    }
 
     if (existingItem) {
       result.set(id, {
