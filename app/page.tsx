@@ -41,7 +41,7 @@ export default function Home() {
   });
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="p-4 max-w-screen-lg mx-auto">
       <input
         type="file"
         name="file"
@@ -55,17 +55,22 @@ export default function Home() {
       <div>Collection missing cards : {totalMissingCards}</div>
       <div>Total completion : {percentile}%</div>
 
-      <EditionStats edition={Release.WelcomeToRathe} collection={collection} />
-      <EditionStats edition={Release.ArcaneRising} collection={collection} />
-      <EditionStats edition={Release.CrucibleOfWar} collection={collection} />
-      <EditionStats edition={Release.Monarch} collection={collection} />
-      <EditionStats edition={Release.TalesOfAria} collection={collection} />
-      <EditionStats edition={Release.Everfest} collection={collection} />
-      <EditionStats edition={Release.Uprising} collection={collection} />
-      <EditionStats edition={Release.Dynasty} collection={collection} />
-      <EditionStats edition={Release.Outsiders} collection={collection} />
-      <EditionStats edition={Release.DuskTillDawn} collection={collection} />
-      <EditionStats edition={Release.BrightLights} collection={collection} />
+      <div className="flex flex-col gap-4">
+        <EditionStats
+          edition={Release.WelcomeToRathe}
+          collection={collection}
+        />
+        <EditionStats edition={Release.ArcaneRising} collection={collection} />
+        <EditionStats edition={Release.CrucibleOfWar} collection={collection} />
+        <EditionStats edition={Release.Monarch} collection={collection} />
+        <EditionStats edition={Release.TalesOfAria} collection={collection} />
+        <EditionStats edition={Release.Everfest} collection={collection} />
+        <EditionStats edition={Release.Uprising} collection={collection} />
+        <EditionStats edition={Release.Dynasty} collection={collection} />
+        <EditionStats edition={Release.Outsiders} collection={collection} />
+        <EditionStats edition={Release.DuskTillDawn} collection={collection} />
+        <EditionStats edition={Release.BrightLights} collection={collection} />
+      </div>
     </main>
   );
 }
@@ -92,11 +97,16 @@ const EditionStats = ({ edition, collection }: EditionStatsProps) => {
     (card) => card.sets.has(edition) && card.missing,
   );
   const organizedMissingCards = organizeMissingCards(missingCards);
+  const totalMissingCards = missingCards.reduce(
+    (sum, card) => sum + card.missing,
+    0,
+  );
 
   return (
     <div className="flex border-black border-2 gap-4 p-2">
       <h2>{edition}</h2>
       <h3>{percentile}% complete</h3>
+      <h3>Total missing : {totalMissingCards} cards</h3>
 
       {organizedMissingCards.map((missingCards) => (
         <MissingCardsBloc missingCards={missingCards} />
