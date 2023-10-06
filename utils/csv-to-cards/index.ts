@@ -1,17 +1,19 @@
 import { Card } from "../../types";
+import Papa from "papaparse";
 import calculatePlaysetNumber from "../calculatePlaysetNumber";
 import { cards } from "fab-cards";
 
 export default function csvToCards(csvString: string): Record<string, Card> {
-  const lines = csvString.trim().split(/\r?\n/);
+  const parsed = Papa.parse(csvString);
+  const lines = parsed.data;
 
   const result = new Map<string, Card>();
 
   delete lines[0]; // Remove the headers
 
-  lines.forEach((line) => {
+  lines.forEach((line: any) => {
     const [
-      rawId,
+      id,
       rawName,
       pitch,
       set,
@@ -24,14 +26,12 @@ export default function csvToCards(csvString: string): Record<string, Card> {
       wantToBuy,
       extraForTrade,
       extraToSell,
-    ] = line.split(",");
+    ] = line;
 
-    const id = rawId.replace(/"/g, "");
-    const name = rawName.replace(/"/g, "");
+    const name = rawName;
     const existingItem = result.get(id);
     const variations = cards.filter((card) => card.name === name).length;
-    const newHave =
-      (Number(have.replace(/"/g, "")) || 0) + (existingItem?.have || 0);
+    const newHave = (Number(have) || 0) + (existingItem?.have || 0);
     const playset = calculatePlaysetNumber(id);
     const missing = Math.max(playset - newHave, 0);
 
@@ -40,19 +40,19 @@ export default function csvToCards(csvString: string): Record<string, Card> {
         ...existingItem,
         have: newHave,
         missing,
-        sets: existingItem.sets.add(set.replace(/"/g, "")),
+        sets: existingItem.sets.add(set),
       });
     }
 
     if (!existingItem) {
       result.set(id, {
         id,
-        name: name.replace(/"/g, ""),
-        sets: new Set([set.replace(/"/g, "")]),
+        name,
+        sets: new Set([set]),
         have: newHave,
-        setNumber: setNumber.replace(/"/g, ""),
+        setNumber,
         missing,
-        pitch: pitch.replace(/"/g, ""),
+        pitch,
         variations,
         playset,
       });

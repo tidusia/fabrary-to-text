@@ -16,12 +16,14 @@
     "clsx": "^2.0.0",
     "fab-cards": "^8.0.147",
     "next": "latest",
+    "papaparse": "^5.4.1",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",
     "@types/node": "latest",
+    "@types/papaparse": "^5.3.9",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
