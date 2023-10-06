@@ -13,6 +13,8 @@ export default function calculatePlaysetNumber(cardId: string): number {
     return 1;
   }
 
+  if (card?.types?.includes(Type.Token)) return 1;
+
   if (card?.types.includes(Type.Mentor)) return 2;
 
   return 3;

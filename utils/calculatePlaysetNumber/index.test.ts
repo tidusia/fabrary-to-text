@@ -32,4 +32,8 @@ describe("calculatePlaysetNumber", () => {
   it("should return 1 for a two-handed weapon", () => {
     expect(calculatePlaysetNumber("dawnblade")).toBe(1);
   });
+
+  it("should return 1 for a token", () => {
+    expect(calculatePlaysetNumber("bloodrot-pox")).toBe(1);
+  });
 });

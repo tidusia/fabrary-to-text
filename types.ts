@@ -7,4 +7,5 @@ export type Card = {
   missing: number;
   pitch?: string;
   variations: number;
+  playset: number;
 };

@@ -2,16 +2,13 @@
 
 import { useMemo, useState } from "react";
 import csvToCards from "../utils/csv-to-cards";
-import { Release } from "fab-cards/dist/interfaces";
-import { SORTED_SETS } from "../constants";
+import { Release } from "fab-cards";
 import organizeMissingCards from "../utils/organizeMissingCards";
 import MissingCardsBloc from "./components/MissingCardsBloc";
+import { Card } from "../types";
 
 export default function Home() {
   const [text, setText] = useState<string>("");
-  const [editionFilter, setEditionFilter] = useState<Release>(
-    "Welcome to Rathe" as Release,
-  );
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const input = event.target.files?.[0];
@@ -29,11 +26,19 @@ export default function Home() {
     () => Object.entries(csvToCards(text) || {}).map(([_, value]) => value),
     [text, csvToCards],
   );
-
-  const missingCards = collection.filter(
-    (card) => card.sets.has(editionFilter) && card.missing,
+  const totalPossessedCards = collection.reduce(
+    (sum, card) => sum + Math.min(card.have, card.playset),
+    0,
   );
-  const organizedMissingCards = organizeMissingCards(missingCards);
+  const totalMissingCards = collection.reduce(
+    (sum, card) => sum + card.missing,
+    0,
+  );
+  const totalCards = collection.reduce((sum, card) => sum + card.playset, 0);
+  const completion = (totalPossessedCards / totalCards) * 100;
+  const percentile = completion.toLocaleString("en", {
+    maximumFractionDigits: 2,
+  });
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -45,36 +50,57 @@ export default function Home() {
         accept=".csv"
       />
 
-      <div>
-        Collection cards possessed :{" "}
-        {collection.reduce((sum, card) => sum + card.have, 0)}
-      </div>
+      <div>Collection cards possessed : {totalPossessedCards}</div>
 
-      <div>
-        Collection missing cards :{" "}
-        {collection.reduce((sum, card) => sum + card.missing, 0)}
-      </div>
+      <div>Collection missing cards : {totalMissingCards}</div>
+      <div>Total completion : {percentile}%</div>
 
-      <div>
-        Filter by edition:{" "}
-        <select
-          name="edition"
-          id="edition"
-          onChange={(event) => setEditionFilter(event.target.value as Release)}
-          value={editionFilter}
-        >
-          <option value="">Select an edition</option>
-          {SORTED_SETS.map((set) => (
-            <option value={set}>{set}</option>
-          ))}
-        </select>
-      </div>
-
-      <div className="my-4">
-        {organizedMissingCards.map((missingCards) => (
-          <MissingCardsBloc missingCards={missingCards} />
-        ))}
-      </div>
+      <EditionStats edition={Release.WelcomeToRathe} collection={collection} />
+      <EditionStats edition={Release.ArcaneRising} collection={collection} />
+      <EditionStats edition={Release.CrucibleOfWar} collection={collection} />
+      <EditionStats edition={Release.Monarch} collection={collection} />
+      <EditionStats edition={Release.TalesOfAria} collection={collection} />
+      <EditionStats edition={Release.Everfest} collection={collection} />
+      <EditionStats edition={Release.Uprising} collection={collection} />
+      <EditionStats edition={Release.Dynasty} collection={collection} />
+      <EditionStats edition={Release.Outsiders} collection={collection} />
+      <EditionStats edition={Release.DuskTillDawn} collection={collection} />
+      <EditionStats edition={Release.BrightLights} collection={collection} />
     </main>
   );
 }
+
+type EditionStatsProps = {
+  edition: Release;
+  collection: Array<Card>;
+};
+
+const EditionStats = ({ edition, collection }: EditionStatsProps) => {
+  if (!collection.length) return null;
+  const filtered = collection.filter((card) => card.sets.has(edition));
+  const totalCards = filtered.reduce((sum, card) => sum + card.playset, 0);
+  const haveCards = filtered.reduce(
+    (sum, card) => sum + Math.min(card.playset, card.have),
+    0,
+  );
+  const completion = (haveCards / totalCards) * 100;
+  const percentile = completion.toLocaleString("en", {
+    maximumFractionDigits: 2,
+  });
+
+  const missingCards = filtered.filter(
+    (card) => card.sets.has(edition) && card.missing,
+  );
+  const organizedMissingCards = organizeMissingCards(missingCards);
+
+  return (
+    <div className="flex border-black border-2 gap-4 p-2">
+      <h2>{edition}</h2>
+      <h3>{percentile}% complete</h3>
+
+      {organizedMissingCards.map((missingCards) => (
+        <MissingCardsBloc missingCards={missingCards} />
+      ))}
+    </div>
+  );
+};

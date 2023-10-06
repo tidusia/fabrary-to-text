@@ -32,8 +32,8 @@ export default function csvToCards(csvString: string): Record<string, Card> {
     const variations = cards.filter((card) => card.name === name).length;
     const newHave =
       (Number(have.replace(/"/g, "")) || 0) + (existingItem?.have || 0);
-    const playsetForCard = calculatePlaysetNumber(id);
-    const missing = Math.max(playsetForCard - newHave, 0);
+    const playset = calculatePlaysetNumber(id);
+    const missing = Math.max(playset - newHave, 0);
 
     if (existingItem) {
       result.set(id, {
@@ -54,6 +54,7 @@ export default function csvToCards(csvString: string): Record<string, Card> {
         missing,
         pitch: pitch.replace(/"/g, ""),
         variations,
+        playset,
       });
     }
   });
