@@ -105,22 +105,18 @@ export default function Home() {
           edition={Release.CrucibleOfWar}
           collection={filteredCollection}
         />
-        {/* TODO: check collection export */}
         <EditionStats
           edition={Release.Monarch}
           collection={filteredCollection}
         />
-        {/* TODO: check collection export */}
         <EditionStats
           edition={Release.TalesOfAria}
           collection={filteredCollection}
         />
-        {/* TODO: check collection export */}
         <EditionStats
           edition={Release.Everfest}
           collection={filteredCollection}
         />
-        {/* TODO: check collection export */}
         <EditionStats
           edition={Release.Uprising}
           collection={filteredCollection}

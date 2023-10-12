@@ -15,7 +15,9 @@ export default function MissingCardsBloc({
   const missingCardsText = missingCards.map((card) => {
     const showPitch = card.variations > 1;
 
-    return `${card.missing} ${card.name} ${showPitch ? card.pitch : ""}`;
+    return `${card.missing} ${MKM_EXCEPTIONS[card.name] || card.name} ${
+      showPitch ? card.pitch : ""
+    }`;
   });
 
   return (
@@ -35,3 +37,19 @@ export default function MissingCardsBloc({
     </div>
   );
 }
+
+const MKM_EXCEPTIONS: Record<string, string> = {
+  "Aether Ashwing": "Aether Ashwing // Ash",
+  "Invoke Azvolai": "Invoke Azvolai // Azvolai",
+  "Invoke Cromai": "Invoke Cromai // Cromai",
+  "Invoke Dominia": "Invoke Dominia // Dominia",
+  "Invoke Kyloria": "Invoke Kyloria // Kyloria",
+  "Invoke Miragai": "Invoke Miragai // Miragai",
+  "Invoke Nekria": "Invoke Nekria // Nekria",
+  "Invoke Ouvia": "Invoke Ouvia // Ouvia",
+  "Invoke Themai": "Invoke Themai // Themai",
+  "Invoke Tomeltai": "Invoke Tomeltai // Tomeltai",
+  "Invoke Vynserakai": "Invoke Vynserakai // Vynserakai",
+  "Invoke Yendurai": "Invoke Yendurai // Yendurai",
+  "Invoke Dracona Optimai": "Invoke Dracona Optimai // Dracona Optimai",
+};
