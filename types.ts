@@ -1,3 +1,5 @@
+import { Rarity } from "fab-cards";
+
 export type Card = {
   id: string;
   name: string;
@@ -8,4 +10,5 @@ export type Card = {
   pitch?: string;
   variations: number;
   playset: number;
+  rarities: Array<Rarity>;
 };

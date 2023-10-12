@@ -60,6 +60,7 @@ export default function csvToCards(csvString: string): Record<string, Card> {
         pitch,
         variations,
         playset,
+        rarities: matchingCardInDb?.rarities || [],
       });
     }
   });

@@ -25,7 +25,11 @@ export default function MissingCardsBloc({
       </button>
       <div className={clsx("border rounded border-black p-2", className)}>
         {missingCardsText.map((text) => {
-          return <div key={text}>{text}</div>;
+          return (
+            <div key={text} className="whitespace-nowrap">
+              {text}
+            </div>
+          );
         })}
       </div>
     </div>

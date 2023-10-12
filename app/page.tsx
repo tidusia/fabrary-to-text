@@ -2,13 +2,27 @@
 
 import { useMemo, useState } from "react";
 import csvToCards from "../utils/csv-to-cards";
-import { Release } from "fab-cards";
+import { Rarity, Release } from "fab-cards";
 import organizeMissingCards from "../utils/organizeMissingCards";
 import MissingCardsBloc from "./components/MissingCardsBloc";
 import { Card } from "../types";
+import filterByRarity from "../utils/filterByRarity";
+
+const ALL_RARITIES = [
+  Rarity.Token,
+  Rarity.Common,
+  Rarity.Rare,
+  Rarity.SuperRare,
+  Rarity.Majestic,
+  Rarity.Legendary,
+  Rarity.Fabled,
+  Rarity.Promo,
+  Rarity.Marvel,
+];
 
 export default function Home() {
   const [text, setText] = useState<string>("");
+  const [filters, setFilters] = useState<Array<Rarity>>(ALL_RARITIES);
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const input = event.target.files?.[0];
@@ -40,6 +54,10 @@ export default function Home() {
     maximumFractionDigits: 2,
   });
 
+  const filteredCollection = collection.filter((card) =>
+    filterByRarity(card.rarities, filters),
+  );
+
   return (
     <main className="p-4 max-w-screen-lg mx-auto">
       <input
@@ -54,22 +72,79 @@ export default function Home() {
 
       <div>Collection missing cards : {totalMissingCards}</div>
       <div>Total completion : {percentile}%</div>
+      <div className="flex flex-wrap gap-2">
+        <span>Filters:</span>
+        {ALL_RARITIES.map((rarity) => (
+          <label>
+            <input
+              type="checkbox"
+              checked={filters.includes(rarity)}
+              onChange={(event) => {
+                if (event.target.checked) {
+                  setFilters([...filters, rarity]);
+                } else {
+                  setFilters(filters.filter((r) => r !== rarity));
+                }
+              }}
+            />
+            {rarity}
+          </label>
+        ))}
+      </div>
 
       <div className="flex flex-col gap-4">
         <EditionStats
           edition={Release.WelcomeToRathe}
-          collection={collection}
+          collection={filteredCollection}
         />
-        <EditionStats edition={Release.ArcaneRising} collection={collection} />
-        <EditionStats edition={Release.CrucibleOfWar} collection={collection} />
-        <EditionStats edition={Release.Monarch} collection={collection} />
-        <EditionStats edition={Release.TalesOfAria} collection={collection} />
-        <EditionStats edition={Release.Everfest} collection={collection} />
-        <EditionStats edition={Release.Uprising} collection={collection} />
-        <EditionStats edition={Release.Dynasty} collection={collection} />
-        <EditionStats edition={Release.Outsiders} collection={collection} />
-        <EditionStats edition={Release.DuskTillDawn} collection={collection} />
-        <EditionStats edition={Release.BrightLights} collection={collection} />
+        <EditionStats
+          edition={Release.ArcaneRising}
+          collection={filteredCollection}
+        />
+        <EditionStats
+          edition={Release.CrucibleOfWar}
+          collection={filteredCollection}
+        />
+        {/* TODO: check collection export */}
+        <EditionStats
+          edition={Release.Monarch}
+          collection={filteredCollection}
+        />
+        {/* TODO: check collection export */}
+        <EditionStats
+          edition={Release.TalesOfAria}
+          collection={filteredCollection}
+        />
+        {/* TODO: check collection export */}
+        <EditionStats
+          edition={Release.Everfest}
+          collection={filteredCollection}
+        />
+        {/* TODO: check collection export */}
+        <EditionStats
+          edition={Release.Uprising}
+          collection={filteredCollection}
+        />
+        {/* TODO: check collection export */}
+        <EditionStats
+          edition={Release.Dynasty}
+          collection={filteredCollection}
+        />
+        {/* TODO: check collection export */}
+        <EditionStats
+          edition={Release.Outsiders}
+          collection={filteredCollection}
+        />
+        {/* TODO: check collection export */}
+        <EditionStats
+          edition={Release.DuskTillDawn}
+          collection={filteredCollection}
+        />
+        {/* TODO: check collection export */}
+        <EditionStats
+          edition={Release.BrightLights}
+          collection={filteredCollection}
+        />
       </div>
     </main>
   );
@@ -97,6 +172,7 @@ const EditionStats = ({ edition, collection }: EditionStatsProps) => {
     (card) => card.sets.has(edition) && card.missing,
   );
   const organizedMissingCards = organizeMissingCards(missingCards);
+  const totalUniqueMissingCards = missingCards.length;
   const totalMissingCards = missingCards.reduce(
     (sum, card) => sum + card.missing,
     0,
@@ -106,7 +182,8 @@ const EditionStats = ({ edition, collection }: EditionStatsProps) => {
     <div className="flex border-black border-2 gap-4 p-2">
       <h2>{edition}</h2>
       <h3>{percentile}% complete</h3>
-      <h3>Total missing : {totalMissingCards} cards</h3>
+      <h3>Total unique missing : {totalUniqueMissingCards} cards</h3>
+      <h3>Total playset missing : {totalMissingCards} cards</h3>
 
       {organizedMissingCards.map((missingCards) => (
         <MissingCardsBloc missingCards={missingCards} />
