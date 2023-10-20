@@ -1,4 +1,5 @@
-import { cards, Keyword, Subtype, Type } from "fab-cards";
+import { Keyword, Subtype, Type } from "@flesh-and-blood/types";
+import { cards } from "@flesh-and-blood/cards";
 
 export default function calculatePlaysetNumber(cardId: string): number {
   const card = cards.find((card) => card.cardIdentifier === cardId);

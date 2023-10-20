@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import csvToCards from "../utils/csv-to-cards";
-import { Rarity, Release } from "fab-cards";
+import { Rarity, Release } from "@flesh-and-blood/types";
 import organizeMissingCards from "../utils/organizeMissingCards";
 import MissingCardsBloc from "./components/MissingCardsBloc";
 import { Card } from "../types";

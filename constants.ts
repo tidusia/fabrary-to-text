@@ -1,5 +1,5 @@
-import { Release } from "fab-cards/dist/interfaces";
-import { cards } from "fab-cards";
+import { Release } from "@flesh-and-blood/types";
+import { cards } from "@flesh-and-blood/cards";
 
 const SETS = new Set<Release>();
 

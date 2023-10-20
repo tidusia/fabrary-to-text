@@ -13,8 +13,9 @@
     "jest:all": "jest"
   },
   "dependencies": {
+    "@flesh-and-blood/cards": "^0.0.100",
+    "@flesh-and-blood/types": "^0.0.100",
     "clsx": "^2.0.0",
-    "fab-cards": "^8.0.147",
     "next": "latest",
     "papaparse": "^5.4.1",
     "react": "latest",

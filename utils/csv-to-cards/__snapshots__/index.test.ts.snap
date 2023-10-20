@@ -88,17 +88,20 @@ exports[`csvToCards should match snapshot 1`] = `
   "adaptive-plating": {
     "have": 0,
     "id": "adaptive-plating",
-    "missing": 3,
+    "missing": 1,
     "name": "Adaptive Plating",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Legendary",
+      "Promo",
+    ],
     "setNumber": "EVO013",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "adrenaline-rush-blue": {
     "have": 4,
@@ -1109,12 +1112,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Annihilator Engine",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO054",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "anothos": {
     "have": 1,
@@ -1163,6 +1168,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Majestic",
+      "Promo",
     ],
     "setNumber": "FAB175",
     "sets": Set {
@@ -1519,12 +1525,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Autosave Script",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO098",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "autumns-touch-blue": {
     "have": 3,
@@ -1840,12 +1848,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Backup Protocol: BLU",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO083",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "backup-protocol-red-red": {
     "have": 3,
@@ -1854,12 +1864,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Backup Protocol: RED",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO081",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "backup-protocol-yel-yellow": {
     "have": 3,
@@ -1868,12 +1880,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Backup Protocol: YEL",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO082",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "bad-beats-blue": {
     "have": 3,
@@ -1977,13 +1991,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Banksy",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Token",
+    ],
     "setNumber": "EVO006",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "banneret-of-courage-yellow": {
     "have": 0,
@@ -2571,6 +2587,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Promo",
       "Rare",
     ],
     "setNumber": "DTD046",
@@ -2871,12 +2888,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Big Bertha",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO179",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "big-bertha-red": {
     "have": 3,
@@ -2885,12 +2904,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Big Bertha",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO177",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "big-bertha-yellow": {
     "have": 3,
@@ -2899,12 +2920,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Big Bertha",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO178",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "big-shot-red": {
     "have": 1,
@@ -2913,12 +2936,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Big Shot",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO153",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "billowing-mirage-blue": {
     "have": 3,
@@ -4246,16 +4271,18 @@ exports[`csvToCards should match snapshot 1`] = `
   "blood-scent": {
     "have": 1,
     "id": "blood-scent",
-    "missing": 2,
+    "missing": 0,
     "name": "Blood Scent",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "TCC080",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "blood-tribute-blue": {
     "have": 3,
@@ -4763,12 +4790,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Boom Grenade",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO086",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "boom-grenade-red": {
     "have": 3,
@@ -4777,12 +4806,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Boom Grenade",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO084",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "boom-grenade-yellow": {
     "have": 3,
@@ -4791,12 +4822,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Boom Grenade",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO085",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "boulder-drop-blue": {
     "have": 2,
@@ -4805,12 +4838,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Boulder Drop",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "TCC044",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 2,
   },
   "boulder-drop-yellow": {
     "have": 2,
@@ -4819,12 +4854,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Boulder Drop",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "TCC039",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 2,
   },
   "boulder-trap-yellow": {
     "have": 4,
@@ -5261,6 +5298,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Common",
+      "Promo",
     ],
     "setNumber": "DTD102",
     "sets": Set {
@@ -5278,6 +5316,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Common",
+      "Promo",
     ],
     "setNumber": "DTD100",
     "sets": Set {
@@ -5295,6 +5334,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Common",
+      "Promo",
     ],
     "setNumber": "DTD101",
     "sets": Set {
@@ -5700,12 +5740,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Bull Bar",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO149",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "bull-bar-red": {
     "have": 3,
@@ -5714,12 +5756,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Bull Bar",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO147",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "bull-bar-yellow": {
     "have": 0,
@@ -5728,12 +5772,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Bull Bar",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO148",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "bulls-eye-bracers": {
     "have": 3,
@@ -5848,12 +5894,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Burn Rubber",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO154",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "burn-them-all-red": {
     "have": 0,
@@ -7138,12 +7186,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Cognition Field",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO119",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "cognition-field-red": {
     "have": 0,
@@ -7152,12 +7202,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Cognition Field",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO117",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "cognition-field-yellow": {
     "have": 3,
@@ -7166,12 +7218,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Cognition Field",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO118",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "cognition-nodes-blue": {
     "have": 3,
@@ -7193,58 +7247,66 @@ exports[`csvToCards should match snapshot 1`] = `
   "cogwerx-base-arms": {
     "have": 2,
     "id": "cogwerx-base-arms",
-    "missing": 1,
+    "missing": 0,
     "name": "Cogwerx Base Arms",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO016",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "cogwerx-base-chest": {
     "have": 2,
     "id": "cogwerx-base-chest",
-    "missing": 1,
+    "missing": 0,
     "name": "Cogwerx Base Chest",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO015",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "cogwerx-base-head": {
     "have": 2,
     "id": "cogwerx-base-head",
-    "missing": 1,
+    "missing": 0,
     "name": "Cogwerx Base Head",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO014",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "cogwerx-base-legs": {
     "have": 2,
     "id": "cogwerx-base-legs",
-    "missing": 1,
+    "missing": 0,
     "name": "Cogwerx Base Legs",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO017",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "cold-snap-blue": {
     "have": 3,
@@ -7365,12 +7427,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Colossal Bearing",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "TCC034",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "combustible-courier-blue": {
     "have": 3,
@@ -7791,6 +7855,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 1,
     "rarities": [
       "Common",
+      "Promo",
     ],
     "setNumber": "DTD232",
     "sets": Set {
@@ -7968,6 +8033,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "Blue",
     "playset": 3,
     "rarities": [
+      "Majestic",
       "Super Rare",
     ],
     "setNumber": "TCC046",
@@ -8035,12 +8101,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Crash Down",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "TCC037",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 2,
   },
   "crash-down-yellow": {
     "have": 2,
@@ -8049,12 +8117,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Crash Down",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "TCC042",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 2,
   },
   "crater-fist": {
     "have": 0,
@@ -8238,12 +8308,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Crowd Control",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "TCC076",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "crowd-control-red": {
     "have": 2,
@@ -8252,12 +8324,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Crowd Control",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "TCC060",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "crowd-control-yellow": {
     "have": 2,
@@ -8266,12 +8340,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Crowd Control",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "TCC063",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "crown-of-dichotomy": {
     "have": 3,
@@ -8746,6 +8822,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Promo",
       "Token",
     ],
     "setNumber": "EVO002",
@@ -8779,17 +8856,20 @@ exports[`csvToCards should match snapshot 1`] = `
   "dash-io": {
     "have": 0,
     "id": "dash-io",
-    "missing": 3,
+    "missing": 1,
     "name": "Dash I/O",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Majestic",
+      "Promo",
+    ],
     "setNumber": "EVO001",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "data-doll-mkii": {
     "have": 0,
@@ -8817,12 +8897,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Data Link",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO188",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "data-link-red": {
     "have": 3,
@@ -8831,12 +8913,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Data Link",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO186",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "data-link-yellow": {
     "have": 2,
@@ -8845,12 +8929,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Data Link",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO187",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "dauntless-blue": {
     "have": 1,
@@ -9525,6 +9611,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "Red",
     "playset": 3,
     "rarities": [
+      "Majestic",
       "Promo",
     ],
     "setNumber": "EVO057",
@@ -9642,6 +9729,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Majestic",
+      "Promo",
     ],
     "setNumber": "DTD107",
     "sets": Set {
@@ -9687,30 +9775,34 @@ exports[`csvToCards should match snapshot 1`] = `
   "diamond": {
     "have": 0,
     "id": "diamond",
-    "missing": 3,
+    "missing": 1,
     "name": "Diamond",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Promo",
+    ],
     "setNumber": "FAB165",
     "sets": Set {
       "Promos",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "diamond-hands": {
     "have": 0,
     "id": "diamond-hands",
-    "missing": 3,
+    "missing": 1,
     "name": "Diamond Hands",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Promo",
+    ],
     "setNumber": "LSS008",
     "sets": Set {
       "Promos",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "dig-up-dinner-blue": {
     "have": 0,
@@ -9919,12 +10011,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Dissolving Shield",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO089",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "dissolving-shield-red": {
     "have": 3,
@@ -9933,12 +10027,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Dissolving Shield",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO087",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "dissolving-shield-yellow": {
     "have": 3,
@@ -9947,12 +10043,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Dissolving Shield",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO088",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "dive-through-data-blue": {
     "have": 3,
@@ -9961,12 +10059,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Dive Through Data",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO191",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "dive-through-data-red": {
     "have": 3,
@@ -9975,12 +10075,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Dive Through Data",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO189",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "dive-through-data-yellow": {
     "have": 3,
@@ -9989,12 +10091,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Dive Through Data",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO190",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "dodge-blue": {
     "have": 3,
@@ -10548,12 +10652,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Dumpster Dive",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO197",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "dumpster-dive-red": {
     "have": 3,
@@ -10562,12 +10668,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Dumpster Dive",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO195",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "dumpster-dive-yellow": {
     "have": 3,
@@ -10576,12 +10684,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Dumpster Dive",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO196",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "dunebreaker-cenipai-blue": {
     "have": 3,
@@ -10710,12 +10820,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Dust from the Chrome Caverns",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO246",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "dust-from-the-golden-plains-red": {
     "have": 0,
@@ -10907,12 +11019,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Earthlore Empowerment",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "TCC038",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 2,
   },
   "earthlore-empowerment-yellow": {
     "have": 2,
@@ -10921,12 +11035,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Earthlore Empowerment",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "TCC043",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 2,
   },
   "earthlore-surge-blue": {
     "have": 3,
@@ -12324,16 +12440,19 @@ exports[`csvToCards should match snapshot 1`] = `
   "evo-atom-breaker-red": {
     "have": 1,
     "id": "evo-atom-breaker-red",
-    "missing": 2,
+    "missing": 0,
     "name": "Evo Atom Breaker",
     "pitch": "Red",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Majestic",
+      "Marvel",
+    ],
     "setNumber": "EVO031",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-battery-pack-yellow": {
     "have": 3,
@@ -12341,13 +12460,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Battery Pack",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO047",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-buzz-hive-yellow": {
     "have": 3,
@@ -12355,13 +12476,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Buzz Hive",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO051",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-charging-rods-yellow": {
     "have": 3,
@@ -12369,27 +12492,32 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Charging Rods",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO049",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-circuit-breaker-red": {
     "have": 0,
     "id": "evo-circuit-breaker-red",
-    "missing": 3,
+    "missing": 1,
     "name": "Evo Circuit Breaker",
     "pitch": "Red",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Majestic",
+      "Marvel",
+    ],
     "setNumber": "EVO030",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-cogspitter-yellow": {
     "have": 3,
@@ -12397,13 +12525,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Cogspitter",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO048",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-command-center-yellow": {
     "have": 3,
@@ -12411,13 +12541,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Command Center",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO034",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-data-mine-yellow": {
     "have": 3,
@@ -12425,13 +12557,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Data Mine",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO046",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-energy-matrix-blue": {
     "have": 2,
@@ -12456,41 +12590,49 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Engine Room",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO035",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-face-breaker-red": {
     "have": 0,
     "id": "evo-face-breaker-red",
-    "missing": 3,
+    "missing": 1,
     "name": "Evo Face Breaker",
     "pitch": "Red",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Majestic",
+      "Marvel",
+    ],
     "setNumber": "EVO032",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-mach-breaker-red": {
     "have": 1,
     "id": "evo-mach-breaker-red",
-    "missing": 2,
+    "missing": 0,
     "name": "Evo Mach Breaker",
     "pitch": "Red",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Majestic",
+      "Marvel",
+    ],
     "setNumber": "EVO033",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-rapid-fire-blue": {
     "have": 2,
@@ -12532,13 +12674,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Sentry Base Arms",
     "pitch": "Red",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO044",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-sentry-base-chest-red": {
     "have": 3,
@@ -12546,13 +12690,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Sentry Base Chest",
     "pitch": "Red",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO043",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-sentry-base-head-red": {
     "have": 3,
@@ -12560,13 +12706,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Sentry Base Head",
     "pitch": "Red",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO042",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-sentry-base-legs-red": {
     "have": 3,
@@ -12574,13 +12722,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Sentry Base Legs",
     "pitch": "Red",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO045",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-smoothbore-yellow": {
     "have": 3,
@@ -12588,27 +12738,32 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Smoothbore",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO036",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-steel-soul-controller-blue": {
     "have": 0,
     "id": "evo-steel-soul-controller-blue",
-    "missing": 3,
+    "missing": 1,
     "name": "Evo Steel Soul Controller",
     "pitch": "Blue",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Majestic",
+      "Marvel",
+    ],
     "setNumber": "EVO028",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-steel-soul-memory-blue": {
     "have": 1,
@@ -12619,6 +12774,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 1,
     "rarities": [
       "Majestic",
+      "Marvel",
     ],
     "setNumber": "EVO026",
     "sets": Set {
@@ -12629,30 +12785,36 @@ exports[`csvToCards should match snapshot 1`] = `
   "evo-steel-soul-processor-blue": {
     "have": 0,
     "id": "evo-steel-soul-processor-blue",
-    "missing": 3,
+    "missing": 1,
     "name": "Evo Steel Soul Processor",
     "pitch": "Blue",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Majestic",
+      "Marvel",
+    ],
     "setNumber": "EVO027",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-steel-soul-tower-blue": {
     "have": 0,
     "id": "evo-steel-soul-tower-blue",
-    "missing": 3,
+    "missing": 1,
     "name": "Evo Steel Soul Tower",
     "pitch": "Blue",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Majestic",
+      "Marvel",
+    ],
     "setNumber": "EVO029",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-tekloscope-blue": {
     "have": 2,
@@ -12677,13 +12839,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Thruster",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO037",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-whizz-bang-yellow": {
     "have": 3,
@@ -12691,13 +12855,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Whizz Bang",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO052",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-zip-line-yellow": {
     "have": 3,
@@ -12705,13 +12871,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Zip Line",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO053",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "evo-zoom-call-yellow": {
     "have": 3,
@@ -12719,13 +12887,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Evo Zoom Call",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO050",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "expedite-blue": {
     "have": 3,
@@ -12734,12 +12904,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Expedite",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO200",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "expedite-red": {
     "have": 3,
@@ -12748,12 +12920,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Expedite",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO198",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "expedite-yellow": {
     "have": 3,
@@ -12762,12 +12936,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Expedite",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO199",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "expendable-limbs-blue": {
     "have": 0,
@@ -12939,12 +13115,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Fabricate",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO146",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "fai": {
     "have": 1,
@@ -13258,12 +13436,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Fender Bender",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO212",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "fender-bender-red": {
     "have": 3,
@@ -13272,12 +13452,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Fender Bender",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO210",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "fender-bender-yellow": {
     "have": 3,
@@ -13286,12 +13468,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Fender Bender",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO211",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "fervent-forerunner-blue": {
     "have": 5,
@@ -13344,17 +13528,20 @@ exports[`csvToCards should match snapshot 1`] = `
   "fiddle-dee": {
     "have": 1,
     "id": "fiddle-dee",
-    "missing": 2,
+    "missing": 0,
     "name": "Fiddle-dee",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Promo",
+      "Rare",
+    ],
     "setNumber": "LGS215",
     "sets": Set {
       "Promos",
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "figment-of-erudition-yellow": {
     "have": 0,
@@ -13548,13 +13735,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Firewall",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO161",
     "sets": Set {
       "Bright Lights",
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "firewall-red": {
     "have": 4,
@@ -13563,13 +13752,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Firewall",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO159",
     "sets": Set {
       "Bright Lights",
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "firewall-yellow": {
     "have": 5,
@@ -13578,13 +13769,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Firewall",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO160",
     "sets": Set {
       "Bright Lights",
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "fisticuffs": {
     "have": 3,
@@ -14896,12 +15089,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Fuel Injector",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO075",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "full-tilt-blue": {
     "have": 3,
@@ -14910,12 +15105,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Full Tilt",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO170",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "full-tilt-red": {
     "have": 3,
@@ -14924,12 +15121,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Full Tilt",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO168",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "full-tilt-yellow": {
     "have": 3,
@@ -14938,12 +15137,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Full Tilt",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO169",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "fulminate-yellow": {
     "have": 1,
@@ -15126,12 +15327,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Gas Guzzler",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO173",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "gas-guzzler-red": {
     "have": 3,
@@ -15140,12 +15343,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Gas Guzzler",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO171",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "gas-guzzler-yellow": {
     "have": 3,
@@ -15154,12 +15359,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Gas Guzzler",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO172",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "gas-up-blue": {
     "have": 3,
@@ -15168,12 +15375,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Gas Up",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO224",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "gas-up-red": {
     "have": 3,
@@ -15182,12 +15391,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Gas Up",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO222",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "gas-up-yellow": {
     "have": 3,
@@ -15196,12 +15407,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Gas Up",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO223",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "gavel-of-natural-order": {
     "have": 0,
@@ -15351,12 +15564,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Gigawatt",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO158",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "gigawatt-red": {
     "have": 2,
@@ -15365,12 +15580,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Gigawatt",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO156",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "gigawatt-yellow": {
     "have": 0,
@@ -15379,12 +15596,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Gigawatt",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO157",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "give-and-take-red": {
     "have": 0,
@@ -15887,12 +16106,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Grinding Gears",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO070",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "growl-red": {
     "have": 2,
@@ -15908,7 +16129,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "sets": Set {
       "Round the Table",
     },
-    "variations": 1,
+    "variations": 2,
   },
   "growl-yellow": {
     "have": 2,
@@ -15917,12 +16138,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Growl",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "TCC094",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 1,
+    "variations": 2,
   },
   "guardian-of-the-shadowrealm-red": {
     "have": 1,
@@ -15963,12 +16186,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Hadron Collider",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO092",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "hadron-collider-red": {
     "have": 3,
@@ -15977,12 +16202,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Hadron Collider",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO090",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "hadron-collider-yellow": {
     "have": 3,
@@ -15991,12 +16218,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Hadron Collider",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO091",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "hala-goldenhelm": {
     "have": 3,
@@ -16437,17 +16666,20 @@ exports[`csvToCards should match snapshot 1`] = `
   "heart-throb": {
     "have": 1,
     "id": "heart-throb",
-    "missing": 2,
+    "missing": 0,
     "name": "Heart-throb",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Promo",
+      "Rare",
+    ],
     "setNumber": "LGS214",
     "sets": Set {
       "Promos",
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "heartened-cross-strap": {
     "have": 2,
@@ -16561,13 +16793,16 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Heavy Artillery",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Promo",
+      "Rare",
+    ],
     "setNumber": "EVO063",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "heavy-artillery-red": {
     "have": 1,
@@ -16576,13 +16811,16 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Heavy Artillery",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Promo",
+      "Rare",
+    ],
     "setNumber": "EVO061",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "heavy-artillery-yellow": {
     "have": 2,
@@ -16591,13 +16829,16 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Heavy Artillery",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Promo",
+      "Rare",
+    ],
     "setNumber": "EVO062",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "heist-red": {
     "have": 1,
@@ -16606,12 +16847,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Heist",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO138",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "helios-mitre": {
     "have": 3,
@@ -16639,6 +16882,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Promo",
       "Rare",
     ],
     "setNumber": "DTD105",
@@ -17030,6 +17274,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "Blue",
     "playset": 3,
     "rarities": [
+      "Promo",
       "Rare",
     ],
     "setNumber": "DTD028",
@@ -17048,6 +17293,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "Red",
     "playset": 3,
     "rarities": [
+      "Promo",
       "Rare",
     ],
     "setNumber": "DTD026",
@@ -17066,6 +17312,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "Yellow",
     "playset": 3,
     "rarities": [
+      "Promo",
       "Rare",
     ],
     "setNumber": "DTD027",
@@ -17580,6 +17827,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "Blue",
     "playset": 3,
     "rarities": [
+      "Promo",
       "Rare",
     ],
     "setNumber": "DTD174",
@@ -17597,6 +17845,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "Red",
     "playset": 3,
     "rarities": [
+      "Promo",
       "Rare",
     ],
     "setNumber": "DTD172",
@@ -17614,6 +17863,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "Yellow",
     "playset": 3,
     "rarities": [
+      "Promo",
       "Rare",
     ],
     "setNumber": "DTD173",
@@ -17745,12 +17995,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Hydraulic Press",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO104",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "hydraulic-press-red": {
     "have": 3,
@@ -17759,12 +18011,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Hydraulic Press",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO102",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "hydraulic-press-yellow": {
     "have": 3,
@@ -17773,12 +18027,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Hydraulic Press",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO103",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "hyper-driver": {
     "have": 5,
@@ -17786,14 +18042,17 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Hyper Driver",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Promo",
+      "Token",
+    ],
     "setNumber": "EVO234",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 3,
+    "variations": 4,
   },
   "hyper-driver-blue": {
     "have": 3,
@@ -17809,7 +18068,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "sets": Set {
       "Dynasty",
     },
-    "variations": 3,
+    "variations": 4,
   },
   "hyper-driver-red": {
     "have": 9,
@@ -17828,7 +18087,7 @@ exports[`csvToCards should match snapshot 1`] = `
       "Dynasty",
       "Bright Lights",
     },
-    "variations": 3,
+    "variations": 4,
   },
   "hyper-driver-yellow": {
     "have": 3,
@@ -17844,7 +18103,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "sets": Set {
       "Dynasty",
     },
-    "variations": 3,
+    "variations": 4,
   },
   "hyper-scrapper-blue": {
     "have": 1,
@@ -17853,27 +18112,32 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Hyper Scrapper",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO100",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "hyper-x": {
     "have": 0,
     "id": "hyper-x",
-    "missing": 3,
+    "missing": 1,
     "name": "Hyper-X3",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Legendary",
+      "Promo",
+    ],
     "setNumber": "EVO011",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "hypothermia-blue": {
     "have": 0,
@@ -18694,12 +18958,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Infuse Alloy",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO122",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "infuse-alloy-red": {
     "have": 3,
@@ -18708,12 +18974,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Infuse Alloy",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO120",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "infuse-alloy-yellow": {
     "have": 3,
@@ -18722,12 +18990,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Infuse Alloy",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO121",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "infuse-titanium-blue": {
     "have": 3,
@@ -18736,12 +19006,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Infuse Titanium",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO125",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "infuse-titanium-red": {
     "have": 3,
@@ -18750,12 +19022,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Infuse Titanium",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO123",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "infuse-titanium-yellow": {
     "have": 2,
@@ -18764,12 +19038,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Infuse Titanium",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO124",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "insidious-chill-blue": {
     "have": 0,
@@ -18842,12 +19118,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Interlude",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "TCC075",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 1,
+    "variations": 3,
   },
   "interlude-red": {
     "have": 2,
@@ -18863,7 +19141,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "sets": Set {
       "Round the Table",
     },
-    "variations": 1,
+    "variations": 3,
   },
   "interlude-yellow": {
     "have": 2,
@@ -18872,12 +19150,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Interlude",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "TCC062",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 1,
+    "variations": 3,
   },
   "intoxicating-shot-blue": {
     "have": 1,
@@ -19691,12 +19971,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Jack-o'-lantern",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Promo",
+    ],
     "setNumber": "LGS178",
     "sets": Set {
       "Promos",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "jack-o-lantern-red": {
     "have": 0,
@@ -19705,12 +19987,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Jack-o'-lantern",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Promo",
+    ],
     "setNumber": "LGS176",
     "sets": Set {
       "Promos",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "jack-o-lantern-yellow": {
     "have": 0,
@@ -19719,12 +20003,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Jack-o'-lantern",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Promo",
+    ],
     "setNumber": "LGS177",
     "sets": Set {
       "Promos",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "jinglewood-smash-hit": {
     "have": 1,
@@ -19734,6 +20020,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Promo",
       "Rare",
     ],
     "setNumber": "LGS212",
@@ -19819,12 +20106,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Junkyard Dogg",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO128",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "junkyard-dogg-red": {
     "have": 3,
@@ -19833,12 +20122,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Junkyard Dogg",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO126",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "junkyard-dogg-yellow": {
     "have": 3,
@@ -19847,12 +20138,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Junkyard Dogg",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO127",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "kano": {
     "have": 1,
@@ -20290,12 +20583,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Lay Waste",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO209",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "lay-waste-red": {
     "have": 3,
@@ -20304,12 +20599,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Lay Waste",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO207",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "lay-waste-yellow": {
     "have": 3,
@@ -20318,12 +20615,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Lay Waste",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO208",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "lead-the-charge-blue": {
     "have": 5,
@@ -20866,13 +21165,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Liquid-Cooled Mayhem",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO066",
     "sets": Set {
       "Bright Lights",
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "liquid-cooled-mayhem-red": {
     "have": 5,
@@ -20881,13 +21182,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Liquid-Cooled Mayhem",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO064",
     "sets": Set {
       "Bright Lights",
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "liquid-cooled-mayhem-yellow": {
     "have": 3,
@@ -20896,12 +21199,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Liquid-Cooled Mayhem",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO065",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "locked-and-loaded-blue": {
     "have": 3,
@@ -21681,16 +21986,18 @@ exports[`csvToCards should match snapshot 1`] = `
   "master-cog-yellow": {
     "have": 0,
     "id": "master-cog-yellow",
-    "missing": 3,
+    "missing": 1,
     "name": "Master Cog",
     "pitch": "Yellow",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Fabled",
+    ],
     "setNumber": "EVO000",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "mauling-qi-red": {
     "have": 2,
@@ -21767,6 +22074,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "Red",
     "playset": 3,
     "rarities": [
+      "Majestic",
       "Super Rare",
     ],
     "setNumber": "ARC008",
@@ -21782,29 +22090,35 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Maxx Nitro",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Promo",
+      "Token",
+    ],
     "setNumber": "EVO005",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "maxx-the-hype-nitro": {
     "have": 0,
     "id": "maxx-the-hype-nitro",
-    "missing": 3,
+    "missing": 1,
     "name": "Maxx 'The Hype' Nitro",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Majestic",
+      "Promo",
+    ],
     "setNumber": "EVO004",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "meat-and-greet-blue": {
     "have": 3,
@@ -21864,14 +22178,17 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Mechanical Strength",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Promo",
+      "Rare",
+    ],
     "setNumber": "EVO069",
     "sets": Set {
       "Bright Lights",
       "Promos",
       "Round the Table",
     },
-    "variations": 1,
+    "variations": 3,
   },
   "mechanical-strength-red": {
     "have": 4,
@@ -21881,6 +22198,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "Red",
     "playset": 3,
     "rarities": [
+      "Promo",
       "Rare",
     ],
     "setNumber": "EVO067",
@@ -21889,7 +22207,7 @@ exports[`csvToCards should match snapshot 1`] = `
       "Promos",
       "Round the Table",
     },
-    "variations": 1,
+    "variations": 3,
   },
   "mechanical-strength-yellow": {
     "have": 0,
@@ -21898,13 +22216,16 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Mechanical Strength",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Promo",
+      "Rare",
+    ],
     "setNumber": "EVO068",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 1,
+    "variations": 3,
   },
   "medkit-blue": {
     "have": 2,
@@ -21913,12 +22234,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Medkit",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO076",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "meganetic-lockwave-blue": {
     "have": 1,
@@ -21927,12 +22250,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Meganetic Lockwave",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO143",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "meganetic-protocol-blue": {
     "have": 0,
@@ -21942,6 +22267,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "Blue",
     "playset": 3,
     "rarities": [
+      "Majestic",
       "Promo",
     ],
     "setNumber": "EVO059",
@@ -21976,6 +22302,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 1,
     "rarities": [
       "Majestic",
+      "Promo",
     ],
     "setNumber": "HER103",
     "sets": Set {
@@ -22110,12 +22437,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "MetEx",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO203",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "metex-red": {
     "have": 3,
@@ -22124,12 +22453,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "MetEx",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO201",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "metex-yellow": {
     "have": 3,
@@ -22138,12 +22469,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "MetEx",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO202",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "mhz-script-yellow": {
     "have": 3,
@@ -22152,12 +22485,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "MHz Script",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO097",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "micro-processor-blue": {
     "have": 0,
@@ -22248,12 +22583,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Mini Forcefield",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO095",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "mini-forcefield-red": {
     "have": 3,
@@ -22262,12 +22599,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Mini Forcefield",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO093",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "mini-forcefield-yellow": {
     "have": 3,
@@ -22276,12 +22615,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Mini Forcefield",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO094",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "minnowism-blue": {
     "have": 5,
@@ -22418,12 +22759,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Moonshot",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO140",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "mordred-tide-red": {
     "have": 3,
@@ -22997,17 +23340,20 @@ exports[`csvToCards should match snapshot 1`] = `
   "nom-de-plume": {
     "have": 1,
     "id": "nom-de-plume",
-    "missing": 2,
+    "missing": 0,
     "name": "Nom de Plume",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Promo",
+      "Rare",
+    ],
     "setNumber": "LGS213",
     "sets": Set {
       "Promos",
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "northern-winds-blue": {
     "have": 0,
@@ -23612,12 +23958,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Out Pace",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO206",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "out-pace-red": {
     "have": 3,
@@ -23626,12 +23974,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Out Pace",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO204",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "out-pace-yellow": {
     "have": 3,
@@ -23640,12 +23990,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Out Pace",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO205",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "outland-skirmish-blue": {
     "have": 3,
@@ -23892,12 +24244,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Overload Script",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO096",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "overload-yellow": {
     "have": 5,
@@ -24043,12 +24397,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Panel Beater",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO215",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "panel-beater-red": {
     "have": 3,
@@ -24057,12 +24413,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Panel Beater",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO213",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "panel-beater-yellow": {
     "have": 3,
@@ -24071,12 +24429,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Panel Beater",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO214",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "parable-of-humility-yellow": {
     "have": 1,
@@ -24354,12 +24714,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Penetration Script",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO079",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "perch-grapplers": {
     "have": 0,
@@ -24538,12 +24900,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Phantom Tidemaw",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO244",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "phoenix-flame-red": {
     "have": 5,
@@ -24701,16 +25065,18 @@ exports[`csvToCards should match snapshot 1`] = `
   "pink-visor": {
     "have": 0,
     "id": "pink-visor",
-    "missing": 3,
+    "missing": 1,
     "name": "Pink Visor",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Promo",
+    ],
     "setNumber": "LSS007",
     "sets": Set {
       "Promos",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "pitfall-trap-yellow": {
     "have": 1,
@@ -25200,12 +25566,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Polarity Reversal Script",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO078",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "ponder": {
     "have": 2,
@@ -25789,6 +26157,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 1,
     "rarities": [
       "Majestic",
+      "Promo",
     ],
     "setNumber": "DTD001",
     "sets": Set {
@@ -25822,12 +26191,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Prismatic Lens",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO071",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "prismatic-shield-blue": {
     "have": 2,
@@ -26030,6 +26401,8 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Common",
+      "Promo",
       "Token",
     ],
     "setNumber": "EVO024",
@@ -26048,6 +26421,8 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Common",
+      "Promo",
       "Token",
     ],
     "setNumber": "EVO023",
@@ -26066,6 +26441,8 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Common",
+      "Promo",
       "Token",
     ],
     "setNumber": "EVO022",
@@ -26084,6 +26461,8 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Common",
+      "Promo",
       "Token",
     ],
     "setNumber": "EVO025",
@@ -26320,6 +26699,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "Yellow",
     "playset": 3,
     "rarities": [
+      "Majestic",
       "Promo",
     ],
     "setNumber": "EVO058",
@@ -26712,12 +27092,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Quantum Processor",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO072",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "quelling-robe": {
     "have": 3,
@@ -26805,12 +27187,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Quickfire",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO227",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "quickfire-red": {
     "have": 3,
@@ -26819,12 +27203,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Quickfire",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO225",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "quickfire-yellow": {
     "have": 3,
@@ -26833,12 +27219,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Quickfire",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO226",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "quicksilver-dagger": {
     "have": 2,
@@ -26861,17 +27249,20 @@ exports[`csvToCards should match snapshot 1`] = `
   "quickstep": {
     "have": 1,
     "id": "quickstep",
-    "missing": 2,
+    "missing": 0,
     "name": "Quickstep",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Promo",
+      "Rare",
+    ],
     "setNumber": "LGS216",
     "sets": Set {
       "Promos",
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "quiver-of-abyssal-depths": {
     "have": 0,
@@ -27307,12 +27698,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Ratchet Up",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO107",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "ratchet-up-red": {
     "have": 1,
@@ -27321,12 +27714,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Ratchet Up",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO105",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "ratchet-up-yellow": {
     "have": 2,
@@ -27335,12 +27730,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Ratchet Up",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO106",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "rattle-bones-red": {
     "have": 0,
@@ -27579,12 +27976,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Razzle Dazzle",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO167",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "razzle-dazzle-red": {
     "have": 3,
@@ -27593,12 +27992,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Razzle Dazzle",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO165",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "razzle-dazzle-yellow": {
     "have": 3,
@@ -27607,12 +28008,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Razzle Dazzle",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO166",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "re-charge-blue": {
     "have": 3,
@@ -27621,12 +28024,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Re-Charge!",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO230",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "re-charge-red": {
     "have": 3,
@@ -27635,12 +28040,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Re-Charge!",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO228",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "re-charge-yellow": {
     "have": 3,
@@ -27649,12 +28056,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Re-Charge!",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO229",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "read-the-glide-path-blue": {
     "have": 3,
@@ -28580,12 +28989,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Rev Up",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO185",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "rev-up-red": {
     "have": 3,
@@ -28594,12 +29005,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Rev Up",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO183",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "rev-up-yellow": {
     "have": 3,
@@ -28608,12 +29021,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Rev Up",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO184",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "revel-in-runeblood-red": {
     "have": 1,
@@ -31082,12 +31497,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Compactor",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO131",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "scrap-compactor-red": {
     "have": 3,
@@ -31096,12 +31513,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Compactor",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO129",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "scrap-compactor-yellow": {
     "have": 3,
@@ -31110,12 +31529,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Compactor",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO130",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "scrap-harvester-blue": {
     "have": 3,
@@ -31124,12 +31545,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Harvester",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO134",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "scrap-harvester-red": {
     "have": 3,
@@ -31138,12 +31561,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Harvester",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO132",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "scrap-harvester-yellow": {
     "have": 3,
@@ -31152,12 +31577,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Harvester",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO133",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "scrap-hopper-blue": {
     "have": 3,
@@ -31166,12 +31593,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Hopper",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO110",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "scrap-hopper-red": {
     "have": 3,
@@ -31180,12 +31609,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Hopper",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO108",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "scrap-hopper-yellow": {
     "have": 2,
@@ -31194,12 +31625,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Hopper",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO109",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "scrap-prospector-blue": {
     "have": 3,
@@ -31208,12 +31641,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Prospector",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO137",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "scrap-prospector-red": {
     "have": 3,
@@ -31222,12 +31657,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Prospector",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO135",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "scrap-prospector-yellow": {
     "have": 3,
@@ -31236,12 +31673,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Prospector",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO136",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "scrap-trader-red": {
     "have": 1,
@@ -31250,12 +31689,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Scrap Trader",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO101",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "searing-emberblade": {
     "have": 3,
@@ -31466,12 +31907,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Security Script",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO080",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "sedate-blue": {
     "have": 3,
@@ -32584,6 +33027,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 1,
     "rarities": [
       "Legendary",
+      "Promo",
     ],
     "setNumber": "EVO235",
     "sets": Set {
@@ -33134,16 +33578,18 @@ exports[`csvToCards should match snapshot 1`] = `
   "silversheen-needle": {
     "have": 0,
     "id": "silversheen-needle",
-    "missing": 3,
+    "missing": 1,
     "name": "Silversheen Needle",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Promo",
+    ],
     "setNumber": "LSS009",
     "sets": Set {
       "Promos",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "silverwind-shuriken-blue": {
     "have": 0,
@@ -33278,16 +33724,19 @@ exports[`csvToCards should match snapshot 1`] = `
   "singularity-red": {
     "have": 0,
     "id": "singularity-red",
-    "missing": 3,
+    "missing": 1,
     "name": "Singularity",
     "pitch": "Red",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Legendary",
+      "Marvel",
+    ],
     "setNumber": "EVO010",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "sink-below-blue": {
     "have": 5,
@@ -33562,12 +34011,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Slay",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO248",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "slay-the-scholars-blue": {
     "have": 3,
@@ -33809,12 +34260,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Smack of Reality",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "TCC036",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "smash-and-grab-red": {
     "have": 0,
@@ -33823,12 +34276,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Smash and Grab",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO155",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "smash-instinct-blue": {
     "have": 3,
@@ -34377,6 +34832,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Common",
+      "Promo",
     ],
     "setNumber": "LGS217",
     "sets": Set {
@@ -34394,6 +34850,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Common",
+      "Promo",
     ],
     "setNumber": "LGS220",
     "sets": Set {
@@ -34411,6 +34868,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Common",
+      "Promo",
     ],
     "setNumber": "LGS218",
     "sets": Set {
@@ -34428,6 +34886,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Common",
+      "Promo",
     ],
     "setNumber": "LGS219",
     "sets": Set {
@@ -34445,6 +34904,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Common",
+      "Promo",
     ],
     "setNumber": "LGS221",
     "sets": Set {
@@ -34462,6 +34922,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Common",
+      "Promo",
     ],
     "setNumber": "LGS222",
     "sets": Set {
@@ -34745,13 +35206,16 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Soup Up",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Promo",
+      "Rare",
+    ],
     "setNumber": "EVO113",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "soup-up-red": {
     "have": 2,
@@ -34760,13 +35224,16 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Soup Up",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Promo",
+      "Rare",
+    ],
     "setNumber": "EVO111",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "soup-up-yellow": {
     "have": 3,
@@ -34775,13 +35242,16 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Soup Up",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Promo",
+      "Rare",
+    ],
     "setNumber": "EVO112",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "sow-tomorrow-blue": {
     "have": 3,
@@ -35113,6 +35583,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 1,
     "rarities": [
       "Common",
+      "Promo",
     ],
     "setNumber": "DTD235",
     "sets": Set {
@@ -35640,12 +36111,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Spring a Leak",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO152",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "spring-a-leak-red": {
     "have": 2,
@@ -35654,12 +36127,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Spring a Leak",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO150",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "spring-a-leak-yellow": {
     "have": 2,
@@ -35668,12 +36143,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Spring a Leak",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO151",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "spring-load-blue": {
     "have": 5,
@@ -35772,12 +36249,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Sprocket Rocket",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO194",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "sprocket-rocket-red": {
     "have": 3,
@@ -35786,12 +36265,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Sprocket Rocket",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO192",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "sprocket-rocket-yellow": {
     "have": 3,
@@ -35800,12 +36281,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Sprocket Rocket",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO193",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "stab-wound-blue": {
     "have": 0,
@@ -35880,12 +36363,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Stasis Cell",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO073",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "staunch-response-blue": {
     "have": 3,
@@ -35994,12 +36479,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Steam Canister",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO077",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "steel-street-enforcement-blue": {
     "have": 1,
@@ -36008,12 +36495,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Steel Street Enforcement",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO060",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "steel-street-hoons-blue": {
     "have": 1,
@@ -36022,12 +36511,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Steel Street Hoons",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO141",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "steelblade-shunt-blue": {
     "have": 3,
@@ -37063,14 +37554,17 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Symbiosis Shot",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Promo",
+      "Token",
+    ],
     "setNumber": "EVO003",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "system-failure-yellow": {
     "have": 0,
@@ -37079,12 +37573,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "System Failure",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO144",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "system-reset-yellow": {
     "have": 0,
@@ -37093,12 +37589,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "System Reset",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO145",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "t-bone-blue": {
     "have": 1,
@@ -37655,12 +38153,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Tectonic Rift",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO238",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "teklo-base-arms": {
     "have": 2,
@@ -37670,6 +38170,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Common",
       "Promo",
     ],
     "setNumber": "EVO020",
@@ -37687,6 +38188,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Common",
       "Promo",
     ],
     "setNumber": "EVO019",
@@ -37704,6 +38206,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Common",
       "Promo",
     ],
     "setNumber": "EVO018",
@@ -37721,6 +38224,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Common",
       "Promo",
     ],
     "setNumber": "EVO021",
@@ -37755,6 +38259,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Majestic",
+      "Promo",
     ],
     "setNumber": "1HP192",
     "sets": Set {
@@ -37790,14 +38295,17 @@ exports[`csvToCards should match snapshot 1`] = `
     "missing": 0,
     "name": "Teklo Leveler",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Promo",
+      "Token",
+    ],
     "setNumber": "EVO009",
     "sets": Set {
       "Bright Lights",
       "Promos",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "teklo-plasma-pistol": {
     "have": 1,
@@ -37843,12 +38351,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Teklonetic Force Field",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO233",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "teklonetic-force-field-red": {
     "have": 3,
@@ -37857,12 +38367,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Teklonetic Force Field",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO231",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "teklonetic-force-field-yellow": {
     "have": 3,
@@ -37871,12 +38383,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Teklonetic Force Field",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO232",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "teklovossen": {
     "have": 3,
@@ -37886,6 +38400,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "pitch": "",
     "playset": 1,
     "rarities": [
+      "Promo",
       "Token",
     ],
     "setNumber": "EVO008",
@@ -37904,6 +38419,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 1,
     "rarities": [
       "Majestic",
+      "Promo",
     ],
     "setNumber": "EVO007",
     "sets": Set {
@@ -37911,20 +38427,6 @@ exports[`csvToCards should match snapshot 1`] = `
       "Promos",
     },
     "variations": 1,
-  },
-  "teklovossen-the-mechropotent": {
-    "have": 0,
-    "id": "teklovossen-the-mechropotent",
-    "missing": 3,
-    "name": "Teklovossen, the Mechropotent",
-    "pitch": "",
-    "playset": 3,
-    "rarities": [],
-    "setNumber": "EVO010",
-    "sets": Set {
-      "Bright Lights",
-    },
-    "variations": 0,
   },
   "teklovossens-workshop-blue": {
     "have": 3,
@@ -38330,12 +38832,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Tick Tock Clock",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO074",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "tide-flippers": {
     "have": 3,
@@ -38360,12 +38864,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Tiger Eye Reflex",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "TCC102",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 2,
   },
   "tiger-eye-reflex-yellow": {
     "have": 2,
@@ -38374,12 +38880,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Tiger Eye Reflex",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "TCC098",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 2,
   },
   "tiger-stripe-shuko": {
     "have": 0,
@@ -38754,12 +39262,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Torque Tuned",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO116",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "torque-tuned-red": {
     "have": 0,
@@ -38768,12 +39278,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Torque Tuned",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO114",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "torque-tuned-yellow": {
     "have": 3,
@@ -38782,12 +39294,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Torque Tuned",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Rare",
+    ],
     "setNumber": "EVO115",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "torrent-of-tempo-blue": {
     "have": 3,
@@ -39379,12 +39893,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Twin Drive",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO142",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "twin-twisters-blue": {
     "have": 6,
@@ -39463,12 +39979,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Under Loop",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO218",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "under-loop-red": {
     "have": 5,
@@ -39477,13 +39995,15 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Under Loop",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO216",
     "sets": Set {
       "Bright Lights",
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "under-loop-yellow": {
     "have": 3,
@@ -39492,12 +40012,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Under Loop",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO217",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "unhallowed-rites-blue": {
     "have": 3,
@@ -40281,16 +40803,18 @@ exports[`csvToCards should match snapshot 1`] = `
   "vigor": {
     "have": 2,
     "id": "vigor",
-    "missing": 1,
+    "missing": 0,
     "name": "Vigor",
     "pitch": "",
-    "playset": 3,
-    "rarities": [],
+    "playset": 1,
+    "rarities": [
+      "Token",
+    ],
     "setNumber": "TCC107",
     "sets": Set {
       "Round the Table",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "vigor-rush-blue": {
     "have": 5,
@@ -40741,6 +41265,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 1,
     "rarities": [
       "Majestic",
+      "Promo",
     ],
     "setNumber": "DTD133",
     "sets": Set {
@@ -40838,12 +41363,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "War Machine",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Majestic",
+    ],
     "setNumber": "EVO056",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 1,
   },
   "warband-of-bellona": {
     "have": 0,
@@ -40854,6 +41381,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 1,
     "rarities": [
       "Legendary",
+      "Promo",
     ],
     "setNumber": "EVO247",
     "sets": Set {
@@ -42403,12 +42931,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Zero to Fifty",
     "pitch": "Blue",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO164",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "zero-to-fifty-red": {
     "have": 3,
@@ -42417,12 +42947,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Zero to Fifty",
     "pitch": "Red",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO162",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "zero-to-fifty-yellow": {
     "have": 3,
@@ -42431,12 +42963,14 @@ exports[`csvToCards should match snapshot 1`] = `
     "name": "Zero to Fifty",
     "pitch": "Yellow",
     "playset": 3,
-    "rarities": [],
+    "rarities": [
+      "Common",
+    ],
     "setNumber": "EVO163",
     "sets": Set {
       "Bright Lights",
     },
-    "variations": 0,
+    "variations": 3,
   },
   "zero-to-sixty-blue": {
     "have": 3,
@@ -42464,6 +42998,7 @@ exports[`csvToCards should match snapshot 1`] = `
     "playset": 3,
     "rarities": [
       "Common",
+      "Promo",
     ],
     "setNumber": "1HP211",
     "sets": Set {

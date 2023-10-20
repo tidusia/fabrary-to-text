@@ -1,7 +1,7 @@
 import { Card } from "../../types";
 import Papa from "papaparse";
 import calculatePlaysetNumber from "../calculatePlaysetNumber";
-import { cards } from "fab-cards";
+import { cards } from "@flesh-and-blood/cards";
 
 export default function csvToCards(csvString: string): Record<string, Card> {
   const parsed = Papa.parse(csvString);

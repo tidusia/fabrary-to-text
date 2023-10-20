@@ -1,5 +1,5 @@
 import filterByRarity from "./index";
-import { Rarity } from "fab-cards";
+import { Rarity } from "@flesh-and-blood/types";
 
 describe("filterByRarity", () => {
   it("should return false if given no card rarities", () => {

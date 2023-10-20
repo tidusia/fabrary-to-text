@@ -1,4 +1,4 @@
-import { Rarity } from "fab-cards";
+import { Rarity } from "@flesh-and-blood/types";
 
 export default function filterByRarity(
   cardRarities: Array<Rarity>,
