@@ -121,22 +121,18 @@ export default function Home() {
           edition={Release.Uprising}
           collection={filteredCollection}
         />
-        {/* TODO: check collection export */}
         <EditionStats
           edition={Release.Dynasty}
           collection={filteredCollection}
         />
-        {/* TODO: check collection export */}
         <EditionStats
           edition={Release.Outsiders}
           collection={filteredCollection}
         />
-        {/* TODO: check collection export */}
         <EditionStats
           edition={Release.DuskTillDawn}
           collection={filteredCollection}
         />
-        {/* TODO: check collection export */}
         <EditionStats
           edition={Release.BrightLights}
           collection={filteredCollection}
