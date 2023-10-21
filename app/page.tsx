@@ -75,7 +75,7 @@ export default function Home() {
       <div className="flex flex-wrap gap-2">
         <span>Filters:</span>
         {ALL_RARITIES.map((rarity) => (
-          <label>
+          <label key={rarity}>
             <input
               type="checkbox"
               checked={filters.includes(rarity)}
@@ -177,8 +177,8 @@ const EditionStats = ({ edition, collection }: EditionStatsProps) => {
       <h3>Total unique missing : {totalUniqueMissingCards} cards</h3>
       <h3>Total playset missing : {totalMissingCards} cards</h3>
 
-      {organizedMissingCards.map((missingCards) => (
-        <MissingCardsBloc missingCards={missingCards} />
+      {organizedMissingCards.map((missingCards, index) => (
+        <MissingCardsBloc missingCards={missingCards} key={index} />
       ))}
     </div>
   );

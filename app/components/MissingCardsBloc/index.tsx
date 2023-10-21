@@ -65,4 +65,5 @@ const MKM_EXCEPTIONS: Record<string, string> = {
   "Figment of Triumph": "Figment of Triumph // Victoria, Archangel of Triumph",
   "Figment of War": "Figment of War // Bellona, Archangel of War",
   "Levia, Redeemed": "Levia, Redeemed // Blasmophet, Levia Consumed",
+  Singularity: "Singularity // Teklovossen, the Mechropotent",
 };
